@@ -30,3 +30,18 @@ rmvirtualenv
 
 安装django 
 pip install django==1.9.0(这里指定版本)
+创建第一个项目
+使用 django-admin.py 来创建 HelloWorld 项目：
+django-admin.py startproject HelloWorld
+cd HelloWorld/
+$ tree
+.
+|-- HelloWorld
+|   |-- __init__.py
+|   |-- settings.py
+|   |-- urls.py
+|   `-- wsgi.py
+`-- manage.py
+接下来我们进入 HelloWorld 目录输入以下命令，启动服务器：
+python manage.py runserver 0.0.0.0:8000
+0.0.0.0 让其它电脑可连接到开发服务器，8000 为端口号。如果不说明，那么端口号默认为 8000
