@@ -13,20 +13,21 @@ $ source /usr/local/bin/virtualenvwrapper.sh
 把export命令和source命令，加入到~/.bash_profile，就无需重复初始化了
 mkvirtualenv env1创建环境
 workon env1进入空间
-切换环境
 
 workon env1
 
 workon env2
-列出已有环境
+切换环境
 
 workon
-退出环境
+列出已有环境
 
 deactivate
-删除环境
+退出环境
+
 
 rmvirtualenv
+删除环境
 
 安装django 
 pip install django==1.9.0(这里指定版本)
