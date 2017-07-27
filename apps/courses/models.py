@@ -1,5 +1,6 @@
 # _*_ encoding:utf-8 _*_
 from __future__ import unicode_literals
+
 from datetime import datetime
 
 from django.db import models
@@ -20,6 +21,9 @@ class Course(models.Model):
 	class Meta:
 		verbose_name = u'课程'
 		verbose_name_plural = verbose_name
+
+	def __unicode__(self):
+		return self.name
 
 
 class Lesson(models.Model):

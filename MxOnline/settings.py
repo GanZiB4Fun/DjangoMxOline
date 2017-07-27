@@ -87,12 +87,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "mxonline",
-        # 'USER': "ganzib",
-        # 'PASSWORD': "ganzib",
-        # 'HOST': "119.23.43.46",
-		'USER': "root",
-        'PASSWORD': "root",
-        'HOST': "127.0.0.1",
+		'USER': "ganzib",
+		'PASSWORD': "ganzib",
+		'HOST': "119.23.43.46",
+		# 'USER': "root",
+		# 'PASSWORD': "root",
+		# 'HOST': "127.0.0.1",
 		'OPTIONS': {
 			"init_command": "SET foreign_key_checks = 0;",
 		},
